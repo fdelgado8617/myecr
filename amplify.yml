@@ -1,0 +1,21 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build
+        - echo "NEXTAUTH_SECRET=$NEXTAUTH_SECRET" >> .env
+        - echo "AZURE_AD_TENANT_ID=$AZURE_AD_TENANT_ID" >> .env
+        - echo "AZURE_AD_CLIENT_SECRET=$AZURE_AD_CLIENT_SECRET" >> .env
+        - echo "AZURE_AD_CLIENT_ID=$AZURE_AD_CLIENT_ID" >> .env
+        - echo "NEXTAUTH_URL=$NEXTAUTH_URL" >> .env
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
