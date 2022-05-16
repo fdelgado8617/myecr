@@ -93,7 +93,7 @@
         },
         {
             "id": 1,
-            "md": "#### **Welcome to the new MyECR**  \n We are still working on setting up a few apps!  Links to access GoTo, Kelly, and Naviance will redirect you to [sso.ecrchs.net](https://sso.ecrchs.net).  \n Encounter an issue or have feedback?  [Click here](https://docs.google.com/forms/d/e/1FAIpQLSd26tpoYyeeZR8-VbUSsHyG4YvkX1mpq5X7VerMlTTL0fEaLA/viewform?usp=sf_link) to access the feedback form.",
+            "md": "#### **Welcome to the new MyECR**  \n We are still working on setting up a few apps!  Links to access GoTo and Kelly will redirect you to [sso.ecrchs.net](https://sso.ecrchs.net).  \n Encounter an issue or have feedback?  [Click here](https://docs.google.com/forms/d/e/1FAIpQLSd26tpoYyeeZR8-VbUSsHyG4YvkX1mpq5X7VerMlTTL0fEaLA/viewform?usp=sf_link) to access the feedback form.",
             "start": "2022-04-05 4:50",
             "end": "2022-06-03 23:59"
         },
@@ -374,6 +374,18 @@
             }
         },
         {
+            "title": "Gimkit",
+            "icon": "./icon/Gimkit.jpg",
+            "priority": true,
+            "roles": {
+                "TCH": {
+                    "description": "Open Gimkit, use the link on the Staff Intranet to activate your Pro Licence",
+                    "url": "https://www.gimkit.com/login",
+                    "category": ["INS"]
+                }
+            }
+        },
+        {
             "title": "GoTo Connect",
             "icon": "./icon/GoTo.webp",
             "priority": true,
@@ -468,7 +480,7 @@
             "icon": "./icon/kellyeducation_fullcolor_padding2.svg",
             "priority": true,
             "roles": {
-                "TCH": {
+                "STF": {
                     "description": "",
                     "url": "https://sso.ecrchs.net/RelayService/Redirect/a8eac984-4b50-47ea-b420-874de7bba23b",
                     "category": ["ECR"]
@@ -599,17 +611,17 @@
             "roles": {
                 "STU": {
                     "description": "",
-                    "url": "https://sso.ecrchs.net/RelayService/Redirect/b01184a1-4e7d-4255-bef4-1e3136188c8b",
+                    "url": "https://myapps.microsoft.com/signin/cefc1de8-8b7d-484d-9eb7-ca8b5ddeb907?tenantId=3103011a-6832-4e4a-be24-2aac2968b4dc",
                     "category": ["INS"]
                 },
                 "TCH": {
                     "description": "",
-                    "url": "https://sso.ecrchs.net/RelayService/Redirect/f1877a0b-c3a5-48c2-b5a0-02f3cb10567e",
+                    "url": "https://myapps.microsoft.com/signin/a69024ac-15a4-4350-ae95-0465c797d08d?tenantId=3103011a-6832-4e4a-be24-2aac2968b4dc",
                     "category": ["INS"]
                 },
                 "STF": {
                     "description": "",
-                    "url": "https://sso.ecrchs.net/RelayService/Redirect/f1877a0b-c3a5-48c2-b5a0-02f3cb10567e",
+                    "url": "https://myapps.microsoft.com/signin/a69024ac-15a4-4350-ae95-0465c797d08d?tenantId=3103011a-6832-4e4a-be24-2aac2968b4dc",
                     "category": ["INS"]
                 }
             }
