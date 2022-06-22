@@ -1,8 +1,23 @@
 import Link from 'next/link';
-import Card from '../components/Card';
+import Card from './Card';
+import CardCompact from '../components/CardCompact'
+import { motion } from "framer-motion";
 
 
-export default function Category({ title, oid, cards, role, search }) {
+export default function Category({ title, oid, cards, role, search, compactmode }) {
+
+    const item = {
+        hidden: { y: 20, opacity: 0 },
+        visible: {
+          y: 0,
+          opacity: 1,
+          transition: {
+            // delayChildren: 0.3,
+            // staggerChildren: 0.2,
+            delay: 0.025
+          }
+        }
+      };
 
     cards.sort((a, b) => (a.title > b.title) ? 1 : -1)
     const items = []
@@ -13,7 +28,7 @@ export default function Category({ title, oid, cards, role, search }) {
             if (card.roles[ role[0] ].category.includes(oid)) {
                 if ( search === '' || card.title.toLowerCase().includes(search.toLowerCase()) || card.roles[ role[0] ].description.toLowerCase().includes(search.toLowerCase()) ){
                     // console.log(card.roles[ role[0] ].url)
-                    items.push(<Card
+                    !compactmode ? items.push(<Card
                         title={card.title ? card.title : "None"}
                         description={card.roles[ role[0] ].description ? card.roles[ role[0] ].description : "#"}
                         url={card.roles[ role[0] ].url ? card.roles[ role[0] ].url : "#"}
@@ -21,6 +36,14 @@ export default function Category({ title, oid, cards, role, search }) {
                         name={oid}
                         key={card.title}
                         />)
+                        : items.push(<CardCompact
+                            title={card.title ? card.title : "None"}
+                            description={card.roles[ role[0] ].description ? card.roles[ role[0] ].description : "#"}
+                            url={card.roles[ role[0] ].url ? card.roles[ role[0] ].url : "#"}
+                            icon={card.icon ? card.icon : "./icon/ECRslant.png"}
+                            name={oid}
+                            key={card.title}
+                            />)
 
                 }
 
@@ -53,10 +76,10 @@ export default function Category({ title, oid, cards, role, search }) {
 
     return (
         items.length > 0
-            ? <div className="">
+            ? <motion.div className="" initial="hidden" whileInView="visible" variants={item}>
                 <h2 className="mb-1 px-5 text-3xl font-semibold p-2 border-slate-400 border-b">{title}</h2>
                 {/* <hr /> */}
-                <div className="px-3 pb-5 pt-5 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 2xl:grid-cols-8 gap-1 sm:gap-4 overflow-hidden">
+                <motion.div initial="hidden" whileInView="visible" variants={item} className="px-3 pb-5 pt-5 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 2xl:grid-cols-8 gap-1 sm:gap-4 overflow-hidden">
                     {/* {cards.map((card, index) => (
                     <Card key={index} title={card.Title} imgURL={card.icon} priority={card.priority}/>
                 ))} */}
@@ -69,8 +92,8 @@ export default function Category({ title, oid, cards, role, search }) {
                 <Card title="Microsoft Office Portal" url="" icon="https://play-lh.googleusercontent.com/D6XDCje7pB0nNP1sOZkwD-tXkV0_As3ni21us5yZ71_sy0FTWv1s_MQBe1JUnHlgE94=s0-rw"/>
                 <Card title="Paycom" url="" icon="https://play-lh.googleusercontent.com/JGhdoNAdO_gYOyPImRbn7CxdeY4a71ZtnhNvTZGsRyYTObPzCXXIOKpSOaQFraU6XUt-=s0-rw"/>
                 <Card title="Adobe" url="" icon="https://play-lh.googleusercontent.com/WIVfY42FSk4naFCn42h694luehyzsifuiy2l0ok_-lFeb50qda_7j3YQdp0x2-S2_ykH=s0-rw"/> */}
-                </div>
-            </div>
+                </motion.div>
+            </motion.div>
             : <div></div>
     )
 
