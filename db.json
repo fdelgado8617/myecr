@@ -307,6 +307,23 @@
             }
         },
         {
+            "title": "ECR Board",
+            "icon": "",
+            "priority": true,
+            "roles": {
+                "PAR": {
+                    "description": "View the ECR Board Agenda, Meeting Dates, Charter Documents, and more",
+                    "url": "https://www.ecrchs.net/apps/pages/index.jsp?uREC_ID=370005&type=d&pREC_ID=712865",
+                    "category": ["OFF"]
+                },
+                "STU": {
+                    "description": "View the ECR Board Agenda, Meeting Dates, Charter Documents, and more",
+                    "url": "https://www.ecrchs.net/apps/pages/index.jsp?uREC_ID=370005&type=d&pREC_ID=712865",
+                    "category": ["OFF"]
+                }
+            }
+        },
+        {
             "title": "Edpuzzle",
             "icon": "./icon/Edpuzzle.webp",
             "priority": true,
@@ -315,6 +332,18 @@
                     "description": "Set up Edpuzzle for your class",
                     "url": "https://edpuzzle.com/",
                     "category": ["INS"]
+                }
+            }
+        },
+        {
+            "title": "Friends of ECR PTO",
+            "icon": "",
+            "priority": true,
+            "roles": {
+                "PAR": {
+                    "description": "",
+                    "url": "https://www.friendsofecr.com/",
+                    "category": ["OFF"]
                 }
             }
         },
@@ -635,7 +664,7 @@
                 "STU": {
                     "description": "",
                     "url": "https://myapps.microsoft.com/signin/cefc1de8-8b7d-484d-9eb7-ca8b5ddeb907?tenantId=3103011a-6832-4e4a-be24-2aac2968b4dc",
-                    "category": ["INS"]
+                    "category": ["INS", "FEA"]
                 },
                 "TCH": {
                     "description": "",
