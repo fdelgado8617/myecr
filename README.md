@@ -1,5 +1,5 @@
 ## About this project
-- By Steven Bash
+- By Steven Bash!
 - This project is a "one stop shop" dashboard for ECRCHS stakeholders to access applicaitons from one central location.
 - Key Features: apps page with categories and search, alerts, user roles, azure ad authentication
 ---
