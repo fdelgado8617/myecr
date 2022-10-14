@@ -585,11 +585,7 @@
             "icon": "./icon/kellyeducation_fullcolor_padding2.svg",
             "priority": true,
             "roles": {
-                "STF": {
-                    "description": "",
-                    "url": "https://login.frontlineeducation.com/sso/elcamino150",
-                    "category": ["ECR"]
-                }
+                
             }
         },
         {
