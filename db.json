@@ -138,6 +138,14 @@
             "start": "2022-08-29 0:00",
             "end": "2022-09-09 23:59",
             "roles": ["STU", "PAR"]
+        },
+        {
+            "id": 7,
+            "title": "The Solution 2022 Food Donation Drive 11/7-11/17",
+            "body": "The Solution 2022 Food Donation Drive will be running from November 7 through November 17. Donation items can be dropped off in S-1 or H-2.",
+            "md": "[Click here](https://drive.google.com/file/d/1ghT_HYP58eGNVD4rlKlZbzrFyRTJjiqE/view?usp=sharing) for more information on what items are most needed.",
+            "start": "2022-11-03 0:00",
+            "end": "2022-11-17 23:59"
         }
     ],
     "cards": [
