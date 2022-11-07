@@ -887,17 +887,17 @@
                 "STU": {
                     "description": "Outlook Email",
                     "url": "https://outlook.office.com/mail/",
-                    "category": ["PRO"]
+                    "category": ["PRO", "FEA"]
                 },
                 "TCH": {
                     "description": "Outlook Email",
                     "url": "https://outlook.office.com/mail/",
-                    "category": ["PRO"]
+                    "category": ["PRO", "FEA"]
                 },
                 "STF": {
                     "description": "Outlook Email",
                     "url": "https://outlook.office.com/mail/",
-                    "category": ["PRO"]
+                    "category": ["PRO", "FEA"]
                 }
         },
         {
