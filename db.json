@@ -880,6 +880,27 @@
             }
         },
         {
+            "title": "Outlook Email",
+            "icon": "./icon/outlook_icon.png",
+            "priority": true,
+            "roles": {
+                "STU": {
+                    "description": "Outlook Email",
+                    "url": "https://outlook.office.com/mail/",
+                    "category": ["PRO"]
+                },
+                "TCH": {
+                    "description": "Outlook Email",
+                    "url": "https://outlook.office.com/mail/",
+                    "category": ["PRO"]
+                },
+                "STF": {
+                    "description": "Outlook Email",
+                    "url": "https://outlook.office.com/mail/",
+                    "category": ["PRO"]
+                }
+        },
+        {
             "title": "Padlet",
             "icon": "./icon/Padlet.webp",
             "priority": true,
