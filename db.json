@@ -146,6 +146,14 @@
             "md": "[Click here](https://drive.google.com/file/d/1ghT_HYP58eGNVD4rlKlZbzrFyRTJjiqE/view?usp=sharing) for more information on what items are most needed.",
             "start": "2022-11-03 0:00",
             "end": "2022-11-17 23:59"
+        },
+        {
+            "id": 8,
+            "title": "Email transitioning from Gmail to Outlook on 11/17",
+            "body": "For all users that have an ECR provided email account, this is notify you that there will be a change in how you access your email.\nBeginning on November 17 the email client ECRCHS uses will transition to Microsoft Outlook, meaning you will no longer be able to access your email through Gmail.\nYour email address will remain the same, the only change for you is the email client that you will use.",
+            "md": "[Click here](https://youtu.be/KQcdtzINM0c) for more information about the email migration.",
+            "start": "2022-11-10 0:00",
+            "end": "2022-11-16 23:59"
         }
     ],
     "cards": [
