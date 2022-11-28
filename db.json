@@ -445,21 +445,7 @@
             "icon": "./icon/Gmail.webp",
             "priority": true,
             "roles": {
-                "STU": {
-                    "description": "View your myECR Email",
-                    "url": "https://mail.google.com/a/ecrchs.net",
-                    "category": ["OFF"]
-                },
-                "TCH": {
-                    "description": "View your myECR Email",
-                    "url": "https://mail.google.com/a/ecrchs.net",
-                    "category": ["OFF"]
-                },
-                "STF": {
-                    "description": "View your myECR Email",
-                    "url": "https://mail.google.com/a/ecrchs.net",
-                    "category": ["OFF"]
-                }
+
             }
         },
         {
