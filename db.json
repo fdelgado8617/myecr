@@ -448,17 +448,17 @@
                 "STU": {
                     "description": "View your myECR Email",
                     "url": "https://mail.google.com/a/ecrchs.net",
-                    "category": ["FEA", "PRO"]
+                    "category": ["OFF"]
                 },
                 "TCH": {
                     "description": "View your myECR Email",
                     "url": "https://mail.google.com/a/ecrchs.net",
-                    "category": ["FEA", "PRO"]
+                    "category": ["OFF"]
                 },
                 "STF": {
                     "description": "View your myECR Email",
                     "url": "https://mail.google.com/a/ecrchs.net",
-                    "category": ["FEA", "PRO"]
+                    "category": ["OFF"]
                 }
             }
         },
