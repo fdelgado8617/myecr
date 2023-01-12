@@ -577,7 +577,7 @@
             "roles": {
                 "TCH": {
                     "description": "",
-                    "url": "#",
+                    "url": "https://create.kahoot.it/auth/login",
                     "category": ["INS"]
                 }
             }
