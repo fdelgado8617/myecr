@@ -50,31 +50,30 @@ export default function Navbar({ setShowRoleSelector, role, setRole, setSearch, 
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <Link href='/'><a><img
+                  <Link href='/'><img
                     className="block lg:hidden h-16 w-auto ml-6 sm:ml-0 pointer-events-none"
                     src={logo.img}
                     alt="myECR"
-                  /></a></Link>
-                  <Link href='/'><a><img
+                  /></Link>
+                  <Link href='/'><img
                     className="hidden lg:block h-16 w-auto pointer-events-none"
                     src={logo.img}
                     alt="myECR"
-                  /></a></Link>
+                  /></Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6 my-auto">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link href={item.href} key={item.name}><a
-                        
-                        
+                      (<Link
+                        href={item.href}
+                        key={item.name}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
+                        aria-current={item.current ? 'page' : undefined}>
                         {item.name}
-                      </a></Link>
+                      </Link>)
                     ))}
                   </div>
                 </div>
@@ -207,18 +206,17 @@ export default function Navbar({ setShowRoleSelector, role, setRole, setSearch, 
             </div>
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <Link href={item.href} key={item.name}><a
-                
-                as="a"
-                
-                className={classNames(
-                  item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                  'block px-3 py-2 rounded-md text-base font-medium'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                  >
+                (<Link
+                  href={item.href}
+                  key={item.name}
+                  as="a"
+                  className={classNames(
+                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    'block px-3 py-2 rounded-md text-base font-medium'
+                    )}
+                  aria-current={item.current ? 'page' : undefined}>
                   {item.name}
-                </a></Link>
+                </Link>)
               ))}
             </div>
           </Disclosure.Panel>
@@ -231,5 +229,5 @@ export default function Navbar({ setShowRoleSelector, role, setRole, setSearch, 
         </>
       )}
     </Disclosure>
-  )
+  );
 }

@@ -6,8 +6,8 @@ export default function Footer({ }) {
             <div className="sm:flex place-content-between p-3 sticky bottom-0 left-0 z-50 w-full border-slate-400 border-t">
                 <h1>&copy; El Camino Real Charter High School</h1>
                 <div className='flex gap-4'>
-                    <Link href="/about" passHref><a title="About MyECR">About MyECR</a></Link>
-                    <Link href="/status" passHref><a title="System Status">System Status</a></Link>
+                    <Link href="/about" passHref title="About MyECR">About MyECR</Link>
+                    <Link href="/status" passHref title="System Status">System Status</Link>
                 </div>
                 {/* <a href="https://timkoech.co.ke" class="text-gray-700 hover:text-gray-800 m-2  ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe">
@@ -30,6 +30,6 @@ export default function Footer({ }) {
                 </a> */}
             </div>
         </footer>
-    )
+    );
 
 }
