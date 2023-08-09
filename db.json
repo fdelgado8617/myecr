@@ -1000,7 +1000,7 @@
         {
             "title": "* RoyalPass",
             "icon": "./icon/undraw_medicine_b-1-ol.svg",
-            "priority": true,
+            "priority": false,
             "roles": {
                 "STU": {
                     "description": "",
