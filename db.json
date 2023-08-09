@@ -515,13 +515,13 @@
             "priority": true,
             "roles": {
                 "TCH": {
-                    "description": "You can also email techsupport@ecrchs.net to create a ticket",
-                    "url": "https://help.ecrchs.net",
+                    "description": "Email techsupport@ecrchs.net to create a ticket",
+                    "url": "mailto:techsupport@ecrchs.net",
                     "category": ["ECR"]
                 },
                 "STF": {
-                    "description": "You can also email techsupport@ecrchs.net to create a ticket",
-                    "url": "https://help.ecrchs.net",
+                    "description": "Email techsupport@ecrchs.net to create a ticket",
+                    "url": "mailto:techsupport@ecrchs.net",
                     "category": ["ECR"]
                 }
             }
@@ -1002,31 +1002,7 @@
             "icon": "./icon/undraw_medicine_b-1-ol.svg",
             "priority": false,
             "roles": {
-                "STU": {
-                    "description": "",
-                    "url": "https://royalpass.ecrchs.net/",
-                    "category": ["FEA", "ECR"]
-                },
-                "TCH": {
-                    "description": "",
-                    "url": "https://royalpass.ecrchs.net/",
-                    "category": ["FEA", "ECR"]
-                },
-                "STF": {
-                    "description": "",
-                    "url": "https://royalpass.ecrchs.net/",
-                    "category": ["FEA", "ECR"]
-                },
-                "SUB": {
-                    "description": "",
-                    "url": "https://royalpass.ecrchs.net/",
-                    "category": ["FEA", "ECR"]
-                },
-                "PAR": {
-                    "description": "",
-                    "url": "https://royalpass.ecrchs.net/",
-                    "category": ["PAR"]
-                }
+                
             }
         },
         {
