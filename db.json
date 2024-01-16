@@ -1235,6 +1235,23 @@
                     "category": ["OFF"]
                 }
             }
+        },
+        {
+            "title": "MyClass",
+            "icon": "",
+            "priority": true,
+            "roles": {
+                "TCH": {
+                    "description": "",
+                    "url": "https://www.myclass.ecrchs.net",
+                    "category": ["OFF", "FEA"]
+                },
+                "STF": {
+                    "description": "",
+                    "url": "https://www.myclass.ecrchs.net",
+                    "category": ["OFF", "FEA"]
+                }
+            }
         }
         
     ]
