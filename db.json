@@ -1243,12 +1243,12 @@
             "roles": {
                 "TCH": {
                     "description": "",
-                    "url": "https://www.myclass.ecrchs.net",
+                    "url": "https://myclass.ecrchs.net",
                     "category": ["OFF", "FEA"]
                 },
                 "STF": {
                     "description": "",
-                    "url": "https://www.myclass.ecrchs.net",
+                    "url": "https://myclass.ecrchs.net",
                     "category": ["OFF", "FEA"]
                 }
             }
