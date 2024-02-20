@@ -1252,7 +1252,23 @@
                     "category": ["OFF", "FEA"]
                 }
             }
+        },
+        {
+            "title": "Online Student Store",
+            "icon": "",
+            "priority": true,
+            "roles": {
+                "STU": {
+                    "description": "New Online Student Store",
+                    "url": "https://store.ecrchs.net/",
+                    "category": ["OFF"]
+                },
+                "PAR": {
+                    "description": "New Online Student Store",
+                    "url": "https://store.ecrchs.net/",
+                    "category": ["OFF"]
+                }
+            }
         }
-        
     ]
 }
