@@ -889,17 +889,17 @@
             "roles": {
                 "STU": {
                     "description": "Outlook Email",
-                    "url": "https://outlook.office365.com/mail/",
+                    "url": "https://outlook.office365.com/mail",
                     "category": ["PRO", "FEA"]
                 },
                 "TCH": {
                     "description": "Outlook Email",
-                    "url": "https://outlook.office365.com/mail/",
+                    "url": "https://outlook.office365.com/mail",
                     "category": ["PRO", "FEA"]
                 },
                 "STF": {
                     "description": "Outlook Email",
-                    "url": "https://outlook.office365.com/mail/",
+                    "url": "https://outlook.office365.com/mail",
                     "category": ["PRO", "FEA"]
                 }
             }
